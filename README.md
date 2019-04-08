@@ -2,7 +2,7 @@
 
 This is Project 3, RESTful Web API with Express.js (a Node.js Framework), in this project I have created an API for the private blockchain and exposed functionality that can be consumed by several types of web clients ranging from desktop, mobile, and IoT devices. The API project required two endpoints:
 
-GET block
+GET block\
 POST block
 
 ## Setup project for Review.
@@ -17,7 +17,7 @@ To setup the project for review do the following:
 In order to test the functionality you could use the following tools:
 
 1. Postman
-* import collection (available in the root directory)
+* import collection ([./BlockchainND.postman_collection.json](available in the root directory))
 * send GET and POST requests (make sure to run the command `npm start` OR `npm run start-auto-dump` and keep the server running)
 
 2. cURL
