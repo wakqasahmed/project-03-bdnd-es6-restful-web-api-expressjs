@@ -17,7 +17,7 @@ To setup the project for review do the following:
 In order to test the functionality you could use the following tools:
 
 1. Postman
-* import collection ([./BlockchainND.postman_collection.json](available in the root directory))
+* import collection (available in the root directory as "BlockchainND.postman_collection.json")
 * send GET and POST requests (make sure to run the command `npm start` OR `npm run start-auto-dump` and keep the server running)
 
 2. cURL
