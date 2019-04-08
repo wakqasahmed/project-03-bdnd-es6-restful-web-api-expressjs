@@ -56,7 +56,11 @@ class BlockController {
         this.app.post("/api/block", (req, res) => {
             // console.log(req.body.body);
 
-            let data = req.body.body || "";
+            let data = req.body.body || null;
+            if(data === null){
+                res.status(400).json({ error: 'Content not found in the block' });
+                return;
+            }
 
             let newBlock = new Block.Block(data);
 

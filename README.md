@@ -5,6 +5,12 @@ This is Project 3, RESTful Web API with Express.js (a Node.js Framework), in thi
 GET block\
 POST block
 
+## Pre-requisites
+
+* NodeJS (v10.15 or above recommended)
+* Framework: ExpressJS (check "Setup project" instructions below)
+* API endpoints documentation: https://documenter.getpostman.com/view/6171412/S1EKzfdD
+
 ## Setup project for Review.
 
 To setup the project for review do the following:
@@ -17,7 +23,7 @@ To setup the project for review do the following:
 In order to test the functionality you could use the following tools:
 
 1. Postman
-* import collection (available in the root directory as "BlockchainND.postman_collection.json")
+* use API endpoints documentation https://documenter.getpostman.com/view/6171412/S1EKzfdD
 * send GET and POST requests (make sure to run the command `npm start` OR `npm run start-auto-dump` and keep the server running)
 
 2. cURL
