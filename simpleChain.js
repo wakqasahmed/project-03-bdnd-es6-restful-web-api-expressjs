@@ -104,6 +104,7 @@ myBlockChain.getBlock(6).then((block) => {
  ***************** Validate Chain  *************
  ***********************************************/
 
+/*
 // Be careful this only will work if `validateChain` method in Blockchain.js file return a Promise
 myBlockChain.validateChain().then((errorLog) => {
 	if(errorLog.length > 0){
@@ -118,3 +119,4 @@ myBlockChain.validateChain().then((errorLog) => {
 .catch((error) => {
 	console.log(error);
 })
+*/
